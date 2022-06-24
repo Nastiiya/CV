@@ -1,0 +1,13 @@
+section.foto{
+    background-image: url("../img/Nastiya.jpg"); /* The image used */
+    height: 750px ;
+    background-size: cover;
+    background-position: center top 25%;
+}
+div.Education{
+    display: block;
+}
+div.Languages{
+    display: inline;
+   
+}
