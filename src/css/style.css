@@ -5,18 +5,61 @@ section.foto{
     background-position: center top 25%;
 }
 
+
+.name:before {
+    content:'';
+    display: inline-block;
+    height: 500px;
+}
+.fullname{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+.position{
+    font-size: 30px;
+}
+
 .column_1 {
     float: left;
-    width: 30%;
+    width: 40%;
     }
 
 .column_2 {
     float: left;
-    width: 70%;
+    width: 60%;
     }
 
-    .row:after {
+    .description:after {
     content: "";
     display: table;
     clear: both;
+    }
+
+    hr{
+       height: 2px;
+       background-color: black;
+    }
+
+    .social_media:after {
+        content: "";
+        display: table;
+        clear: both;
+        text-align: center;
+        }
+
+    .facebook{
+        float: left;
+        width: 10%;
+    }
+    
+    .instagram{
+        float: left;
+        width: 10%;
+    }
+    .telegram{
+        float: left;
+        width: 10%;
     }
